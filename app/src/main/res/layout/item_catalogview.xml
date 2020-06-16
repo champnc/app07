@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#FFD579"
+    app:cardElevation="5dp"
+    app:contentPadding="2dp"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cardViewContainer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/tvCategoryItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:padding="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:text="0 items"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/ivCategoryItem"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
